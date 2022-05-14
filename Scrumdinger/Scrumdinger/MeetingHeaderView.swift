@@ -12,7 +12,7 @@ struct MeetingHeaderView: View {
     let secondsRemaining: Int
     let theme: Theme
     
-    private var totalSeconds: Int {
+    var totalSeconds: Int {
         secondsElapsed + secondsRemaining
     }
 

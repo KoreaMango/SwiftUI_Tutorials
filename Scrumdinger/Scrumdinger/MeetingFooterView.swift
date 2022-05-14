@@ -37,7 +37,6 @@ struct MeetingFooterView: View {
                 }
             }
         }
-        // 이게 무슨 의미 일까
         .padding([.bottom, .horizontal])
     }
 }
