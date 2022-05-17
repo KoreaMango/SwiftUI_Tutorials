@@ -16,6 +16,8 @@
 		04271A59283091DB00AA2DD8 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04271A58283091DB00AA2DD8 /* ScrumStore.swift */; };
 		04271A5B2832728000AA2DD8 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04271A5A2832728000AA2DD8 /* ErrorWrapper.swift */; };
 		04271A5F283272E100AA2DD8 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04271A5E283272E100AA2DD8 /* ErrorView.swift */; };
+		04271A612833CCCB00AA2DD8 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04271A602833CCCB00AA2DD8 /* MeetingTimerView.swift */; };
+		04271A632833CD3F00AA2DD8 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04271A622833CD3F00AA2DD8 /* SpeakerArc.swift */; };
 		044FA03628282440006AABA7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FA03528282440006AABA7 /* DetailView.swift */; };
 		044FA03828291CEB006AABA7 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FA03728291CEB006AABA7 /* DetailEditView.swift */; };
 		044FA03A282A2D12006AABA7 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FA039282A2D12006AABA7 /* ThemeView.swift */; };
@@ -41,6 +43,8 @@
 		04271A58283091DB00AA2DD8 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		04271A5A2832728000AA2DD8 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		04271A5E283272E100AA2DD8 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		04271A602833CCCB00AA2DD8 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		04271A622833CD3F00AA2DD8 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		044FA03528282440006AABA7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		044FA03728291CEB006AABA7 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		044FA039282A2D12006AABA7 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 		04B6D4CD281C7E4D00E2FCC8 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				04271A602833CCCB00AA2DD8 /* MeetingTimerView.swift */,
 				04271A4C282E638700AA2DD8 /* ScrumProgressViewStyle.swift */,
 				04271A50282E64F500AA2DD8 /* MeetingFooterView.swift */,
 				04271A4A282E607200AA2DD8 /* MeetingHeaderView.swift */,
@@ -104,6 +109,7 @@
 				04B6D4DC281EE85600E2FCC8 /* Models */,
 				04B6D4D2281C7E4E00E2FCC8 /* Assets.xcassets */,
 				04B6D4D4281C7E4E00E2FCC8 /* Preview Content */,
+				04271A622833CD3F00AA2DD8 /* SpeakerArc.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -208,6 +214,7 @@
 				04B6D4E0281EE92200E2FCC8 /* DailyScrum.swift in Sources */,
 				04B6D4E4281EF08900E2FCC8 /* TrailingIconLabelStyle.swift in Sources */,
 				04271A4B282E607200AA2DD8 /* MeetingHeaderView.swift in Sources */,
+				04271A612833CCCB00AA2DD8 /* MeetingTimerView.swift in Sources */,
 				044FA03828291CEB006AABA7 /* DetailEditView.swift in Sources */,
 				04271A5B2832728000AA2DD8 /* ErrorWrapper.swift in Sources */,
 				04B6D4DE281EE87A00E2FCC8 /* Theme.swift in Sources */,
@@ -218,6 +225,7 @@
 				044FA03628282440006AABA7 /* DetailView.swift in Sources */,
 				044FA03A282A2D12006AABA7 /* ThemeView.swift in Sources */,
 				04B6D4E2281EE95700E2FCC8 /* CardView.swift in Sources */,
+				04271A632833CD3F00AA2DD8 /* SpeakerArc.swift in Sources */,
 				04271A53282E66A600AA2DD8 /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
